@@ -233,6 +233,11 @@ input, select, textarea {
 			width: 900px;
 		}
 
+		#profile-pic {
+			height: auto;
+
+		}
+
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -1630,6 +1635,8 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			height: 284px;
+            object-fit: cover;
 		}
 
 		.image.fit {
@@ -1999,6 +2006,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
+			display: none;
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
 		}
